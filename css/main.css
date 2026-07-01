@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400&family=Italiana&family=JetBrains+Mono:wght@400;700&family=Poiret+One&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
   --bg: #070514;
   --bg2: #110d24;
@@ -59,7 +61,7 @@
 }
 
 @font-face {
-  font-family: 'GeistMono';
+  font-family: 'JetBrains Mono';
   src: url('../_shared/fonts/GeistMono-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
