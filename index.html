@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>命运交汇 · Cross Destiny</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <canvas id="particle-canvas"></canvas>
+  <div id="app"></div>
+
+  <script type="module">
+    import { App } from './js/app.js'
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', () => App.init())
+    } else {
+      App.init()
+    }
+  </script>
+</body>
+</html>
